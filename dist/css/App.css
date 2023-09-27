@@ -23,6 +23,9 @@
   height: 200px;
   background-color: hsl(0, 0%, 100%);
   border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 15px;
 }
 
 .comment__header {
@@ -37,12 +40,17 @@
 .comment__footer .comment__footer--icons {
   display: flex;
   gap: 10px;
+  font-weight: 500;
 }
 .comment__footer .comment__footer--icons .comment__footer--delete {
   display: flex;
-  color: hsl(358, 86%, 66%);
+  color: hsl(358, 62%, 58%);
+  gap: 5px;
+  align-items: center;
 }
 .comment__footer .comment__footer--icons .comment__footer--edit {
   display: flex;
   color: hsl(212, 24%, 26%);
+  gap: 5px;
+  align-items: center;
 }/*# sourceMappingURL=App.css.map */
