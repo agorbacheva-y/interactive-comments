@@ -37,4 +37,12 @@
 .comment__footer .comment__footer--icons {
   display: flex;
   gap: 10px;
+}
+.comment__footer .comment__footer--icons .comment__footer--delete {
+  display: flex;
+  color: hsl(358, 86%, 66%);
+}
+.comment__footer .comment__footer--icons .comment__footer--edit {
+  display: flex;
+  color: hsl(212, 24%, 26%);
 }/*# sourceMappingURL=App.css.map */

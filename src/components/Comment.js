@@ -1,4 +1,5 @@
-import React from 'react'
+import DeleteIcon from '@mui/icons-material/Delete';
+import EditIcon from '@mui/icons-material/Edit';
 
 function Comment() {
   return (
@@ -19,8 +20,15 @@ function Comment() {
           <p>likes</p>
         </div>
         <div className='comment__footer--icons'>
-          <p>delete icon</p>
-          <p>edit icon</p>
+          <div className='comment__footer--delete'>
+            <DeleteIcon />
+            <p>Delete</p>
+          </div>
+          <div className='comment__footer--edit'>
+            <EditIcon />
+            <p>Edit</p>
+          </div>
+          
         </div>
       </div>
     </div>
