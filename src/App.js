@@ -1,7 +1,9 @@
+import Comment from "./components/Comment";
+
 function App() {
   return (
-    <div>
-     
+    <div className="body">
+      <Comment />
     </div>
   );
 }
